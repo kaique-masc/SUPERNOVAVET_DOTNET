@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Challenge_Sprint1_.NET.props" />
+</Project>
