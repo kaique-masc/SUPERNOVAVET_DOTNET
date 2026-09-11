@@ -37,7 +37,7 @@ public class PetsController : ControllerBase
     public async Task<ActionResult<IEnumerable<Pet>>> BuscarPorNome(string nome)
     {
         var pets = await _context.Pets
-            .Where(p => p.Nome.Contains(nome))
+            .Where(p => p.Nome != null && p.Nome.Contains(nome))
             .ToListAsync();
 
         return Ok(pets);

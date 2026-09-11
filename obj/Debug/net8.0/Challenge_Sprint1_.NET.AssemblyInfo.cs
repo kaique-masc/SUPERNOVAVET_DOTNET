@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Challenge_Sprint1_.NET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd36ee46bd74549c2f555261e224740f98c3c8f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02fe730fc876ca2f863273ba1da7a007595254fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("Challenge_Sprint1_.NET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Challenge_Sprint1_.NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

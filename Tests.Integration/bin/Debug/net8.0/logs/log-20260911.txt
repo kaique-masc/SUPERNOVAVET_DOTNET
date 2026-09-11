@@ -1,0 +1,156 @@
+2026-09-11 03:37:55.550 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2026-09-11 03:37:55.574 -03:00 [INF] Requisição iniciada: GET /health
+2026-09-11 03:37:55.582 -03:00 [INF] Executing endpoint 'Health checks'
+2026-09-11 03:37:55.589 -03:00 [INF] Start processing HTTP request GET https://www.google.com/
+2026-09-11 03:37:55.589 -03:00 [INF] Sending HTTP request GET https://www.google.com/
+2026-09-11 03:37:55.823 -03:00 [INF] Received HTTP response headers after 232.6682ms - 200
+2026-09-11 03:37:55.826 -03:00 [INF] End processing HTTP request after 238.0508ms - 200
+2026-09-11 03:37:56.229 -03:00 [INF] Executed endpoint 'Health checks'
+2026-09-11 03:37:56.230 -03:00 [INF] Requisição finalizada com sucesso. StatusCode: 200
+2026-09-11 03:37:56.232 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null text/plain 693.5276ms
+2026-09-11 03:40:51.392 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/rota-inexistente - null null
+2026-09-11 03:40:51.415 -03:00 [INF] Requisição iniciada: GET /rota-inexistente
+2026-09-11 03:40:51.423 -03:00 [WRN] Requisição finalizada com aviso. StatusCode: 404
+2026-09-11 03:40:51.425 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/rota-inexistente - 404 null null 43.772ms
+2026-09-11 03:40:51.427 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/rota-inexistente, Response status code: 404
+2026-09-11 03:40:51.436 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2026-09-11 03:40:51.437 -03:00 [INF] Requisição iniciada: GET /health
+2026-09-11 03:40:51.439 -03:00 [INF] Executing endpoint 'Health checks'
+2026-09-11 03:40:51.445 -03:00 [INF] Start processing HTTP request GET https://www.google.com/
+2026-09-11 03:40:51.446 -03:00 [INF] Sending HTTP request GET https://www.google.com/
+2026-09-11 03:40:51.673 -03:00 [INF] Received HTTP response headers after 226.7308ms - 200
+2026-09-11 03:40:51.674 -03:00 [INF] End processing HTTP request after 229.6671ms - 200
+2026-09-11 03:40:51.937 -03:00 [INF] Executed endpoint 'Health checks'
+2026-09-11 03:40:51.937 -03:00 [INF] Requisição finalizada com sucesso. StatusCode: 200
+2026-09-11 03:40:51.938 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null text/plain 502.1803ms
+2026-09-11 03:51:18.363 -03:00 [INF] User profile is available. Using 'C:\Users\kaiqu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-11 03:51:18.405 -03:00 [INF] Creating key {36a74dad-7f58-4599-a354-21ed7ca2d561} with creation date 2026-09-11 06:51:18Z, activation date 2026-09-11 06:51:18Z, and expiration date 2026-12-10 06:51:18Z.
+2026-09-11 03:51:18.454 -03:00 [INF] Writing data to file 'C:\Users\kaiqu\AppData\Local\ASP.NET\DataProtection-Keys\key-36a74dad-7f58-4599-a354-21ed7ca2d561.xml'.
+2026-09-11 03:51:18.490 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/rota-inexistente - null null
+2026-09-11 03:51:18.499 -03:00 [INF] Requisição iniciada: GET /rota-inexistente
+2026-09-11 03:51:18.513 -03:00 [INF] ApiKey was not authenticated. Failure message: API Key não informada.
+2026-09-11 03:51:18.515 -03:00 [WRN] Requisição finalizada com aviso. StatusCode: 404
+2026-09-11 03:51:18.517 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/rota-inexistente - 404 null null 36.29ms
+2026-09-11 03:51:18.518 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/rota-inexistente, Response status code: 404
+2026-09-11 03:51:18.527 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2026-09-11 03:51:18.528 -03:00 [INF] Requisição iniciada: GET /health
+2026-09-11 03:51:18.529 -03:00 [INF] ApiKey was not authenticated. Failure message: API Key não informada.
+2026-09-11 03:51:18.529 -03:00 [INF] Executing endpoint 'Health checks'
+2026-09-11 03:51:18.537 -03:00 [INF] Start processing HTTP request GET https://www.google.com/
+2026-09-11 03:51:18.537 -03:00 [INF] Sending HTTP request GET https://www.google.com/
+2026-09-11 03:51:18.733 -03:00 [INF] Received HTTP response headers after 194.1545ms - 200
+2026-09-11 03:51:18.733 -03:00 [INF] End processing HTTP request after 196.8608ms - 200
+2026-09-11 03:51:19.036 -03:00 [INF] Executed endpoint 'Health checks'
+2026-09-11 03:51:19.036 -03:00 [INF] Requisição finalizada com sucesso. StatusCode: 200
+2026-09-11 03:51:19.037 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null text/plain 509.8053ms
+2026-09-11 03:54:55.249 -03:00 [INF] User profile is available. Using 'C:\Users\kaiqu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-11 03:54:55.338 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/protected - null null
+2026-09-11 03:54:55.348 -03:00 [INF] Requisição iniciada: GET /api/protected
+2026-09-11 03:54:55.399 -03:00 [INF] Executing endpoint 'ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET)'
+2026-09-11 03:54:55.468 -03:00 [INF] Route matched with {action = "Get", controller = "Protected"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller ChallengePetApi.Controllers.ProtectedController (Challenge_Sprint1_.NET).
+2026-09-11 03:54:55.499 -03:00 [INF] Executing action method ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET) - Validation state: "Valid"
+2026-09-11 03:54:55.502 -03:00 [INF] Executed action method ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.4354ms.
+2026-09-11 03:54:55.505 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-11 03:54:55.527 -03:00 [INF] Executed action ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET) in 52.4244ms
+2026-09-11 03:54:55.527 -03:00 [INF] Executed endpoint 'ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET)'
+2026-09-11 03:54:55.529 -03:00 [INF] Requisição finalizada com sucesso. StatusCode: 200
+2026-09-11 03:54:55.530 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/protected - 200 null application/json; charset=utf-8 203.2567ms
+2026-09-11 03:54:55.538 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/protected - null null
+2026-09-11 03:54:55.539 -03:00 [INF] Requisição iniciada: GET /api/protected
+2026-09-11 03:54:55.540 -03:00 [INF] ApiKey was not authenticated. Failure message: API Key não informada.
+2026-09-11 03:54:55.541 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-09-11 03:54:55.542 -03:00 [INF] AuthenticationScheme: ApiKey was challenged.
+2026-09-11 03:54:55.542 -03:00 [WRN] Requisição finalizada com aviso. StatusCode: 401
+2026-09-11 03:54:55.542 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/protected - 401 null null 4.5175ms
+2026-09-11 03:54:55.544 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/rota-inexistente - null null
+2026-09-11 03:54:55.544 -03:00 [INF] Requisição iniciada: GET /rota-inexistente
+2026-09-11 03:54:55.545 -03:00 [INF] ApiKey was not authenticated. Failure message: API Key não informada.
+2026-09-11 03:54:55.546 -03:00 [WRN] Requisição finalizada com aviso. StatusCode: 404
+2026-09-11 03:54:55.546 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/rota-inexistente - 404 null null 1.3443ms
+2026-09-11 03:54:55.546 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/rota-inexistente, Response status code: 404
+2026-09-11 03:54:55.546 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2026-09-11 03:54:55.546 -03:00 [INF] Requisição iniciada: GET /health
+2026-09-11 03:54:55.546 -03:00 [INF] ApiKey was not authenticated. Failure message: API Key não informada.
+2026-09-11 03:54:55.546 -03:00 [INF] Executing endpoint 'Health checks'
+2026-09-11 03:54:55.551 -03:00 [INF] Start processing HTTP request GET https://www.google.com/
+2026-09-11 03:54:55.551 -03:00 [INF] Sending HTTP request GET https://www.google.com/
+2026-09-11 03:54:55.764 -03:00 [INF] Received HTTP response headers after 211.243ms - 200
+2026-09-11 03:54:55.764 -03:00 [INF] End processing HTTP request after 214.2167ms - 200
+2026-09-11 03:54:56.425 -03:00 [INF] Executed endpoint 'Health checks'
+2026-09-11 03:54:56.426 -03:00 [INF] Requisição finalizada com sucesso. StatusCode: 200
+2026-09-11 03:54:56.426 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null text/plain 880.0476ms
+2026-09-11 03:55:53.220 -03:00 [INF] User profile is available. Using 'C:\Users\kaiqu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-11 03:55:53.316 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/protected - null null
+2026-09-11 03:55:53.330 -03:00 [INF] Requisição iniciada: GET /api/protected
+2026-09-11 03:55:53.344 -03:00 [INF] Executing endpoint 'ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET)'
+2026-09-11 03:55:53.349 -03:00 [INF] Route matched with {action = "Get", controller = "Protected"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller ChallengePetApi.Controllers.ProtectedController (Challenge_Sprint1_.NET).
+2026-09-11 03:55:53.351 -03:00 [INF] Executing action method ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET) - Validation state: "Valid"
+2026-09-11 03:55:53.353 -03:00 [INF] Executed action method ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1135ms.
+2026-09-11 03:55:53.357 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-11 03:55:53.367 -03:00 [INF] Executed action ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET) in 16.1071ms
+2026-09-11 03:55:53.367 -03:00 [INF] Executed endpoint 'ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET)'
+2026-09-11 03:55:53.369 -03:00 [INF] Requisição finalizada com sucesso. StatusCode: 200
+2026-09-11 03:55:53.370 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/protected - 200 null application/json; charset=utf-8 68.2453ms
+2026-09-11 03:55:53.378 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/protected - null null
+2026-09-11 03:55:53.379 -03:00 [INF] Requisição iniciada: GET /api/protected
+2026-09-11 03:55:53.380 -03:00 [INF] ApiKey was not authenticated. Failure message: API Key não informada.
+2026-09-11 03:55:53.380 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-09-11 03:55:53.381 -03:00 [INF] AuthenticationScheme: ApiKey was challenged.
+2026-09-11 03:55:53.381 -03:00 [WRN] Requisição finalizada com aviso. StatusCode: 401
+2026-09-11 03:55:53.381 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/protected - 401 null null 3.0156ms
+2026-09-11 03:55:53.383 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/rota-inexistente - null null
+2026-09-11 03:55:53.383 -03:00 [INF] Requisição iniciada: GET /rota-inexistente
+2026-09-11 03:55:53.384 -03:00 [INF] ApiKey was not authenticated. Failure message: API Key não informada.
+2026-09-11 03:55:53.385 -03:00 [WRN] Requisição finalizada com aviso. StatusCode: 404
+2026-09-11 03:55:53.385 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/rota-inexistente - 404 null null 1.4016ms
+2026-09-11 03:55:53.385 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/rota-inexistente, Response status code: 404
+2026-09-11 03:55:53.386 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2026-09-11 03:55:53.386 -03:00 [INF] Requisição iniciada: GET /health
+2026-09-11 03:55:53.386 -03:00 [INF] ApiKey was not authenticated. Failure message: API Key não informada.
+2026-09-11 03:55:53.388 -03:00 [INF] Executing endpoint 'Health checks'
+2026-09-11 03:55:53.394 -03:00 [INF] Start processing HTTP request GET https://www.google.com/
+2026-09-11 03:55:53.394 -03:00 [INF] Sending HTTP request GET https://www.google.com/
+2026-09-11 03:55:53.593 -03:00 [INF] Received HTTP response headers after 197.302ms - 200
+2026-09-11 03:55:53.594 -03:00 [INF] End processing HTTP request after 200.4201ms - 200
+2026-09-11 03:55:53.906 -03:00 [INF] Executed endpoint 'Health checks'
+2026-09-11 03:55:53.906 -03:00 [INF] Requisição finalizada com sucesso. StatusCode: 200
+2026-09-11 03:55:53.907 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null text/plain 521.0426ms
+2026-09-11 03:59:44.613 -03:00 [INF] User profile is available. Using 'C:\Users\kaiqu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-11 03:59:44.694 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/protected - null null
+2026-09-11 03:59:44.704 -03:00 [INF] Requisição iniciada: GET /api/protected
+2026-09-11 03:59:44.732 -03:00 [INF] Executing endpoint 'ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET)'
+2026-09-11 03:59:44.736 -03:00 [INF] Route matched with {action = "Get", controller = "Protected"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller ChallengePetApi.Controllers.ProtectedController (Challenge_Sprint1_.NET).
+2026-09-11 03:59:44.739 -03:00 [INF] Executing action method ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET) - Validation state: "Valid"
+2026-09-11 03:59:44.740 -03:00 [INF] Executed action method ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1206ms.
+2026-09-11 03:59:44.743 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-11 03:59:44.753 -03:00 [INF] Executed action ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET) in 14.8953ms
+2026-09-11 03:59:44.753 -03:00 [INF] Executed endpoint 'ChallengePetApi.Controllers.ProtectedController.Get (Challenge_Sprint1_.NET)'
+2026-09-11 03:59:44.754 -03:00 [INF] Requisição finalizada com sucesso. StatusCode: 200
+2026-09-11 03:59:44.755 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/protected - 200 null application/json; charset=utf-8 72.7555ms
+2026-09-11 03:59:44.763 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/protected - null null
+2026-09-11 03:59:44.764 -03:00 [INF] Requisição iniciada: GET /api/protected
+2026-09-11 03:59:44.765 -03:00 [INF] ApiKey was not authenticated. Failure message: API Key não informada.
+2026-09-11 03:59:44.766 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-09-11 03:59:44.766 -03:00 [INF] AuthenticationScheme: ApiKey was challenged.
+2026-09-11 03:59:44.766 -03:00 [WRN] Requisição finalizada com aviso. StatusCode: 401
+2026-09-11 03:59:44.766 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/protected - 401 null null 3.1389ms
+2026-09-11 03:59:44.769 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/rota-inexistente - null null
+2026-09-11 03:59:44.769 -03:00 [INF] Requisição iniciada: GET /rota-inexistente
+2026-09-11 03:59:44.770 -03:00 [INF] ApiKey was not authenticated. Failure message: API Key não informada.
+2026-09-11 03:59:44.770 -03:00 [WRN] Requisição finalizada com aviso. StatusCode: 404
+2026-09-11 03:59:44.770 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/rota-inexistente - 404 null null 1.5301ms
+2026-09-11 03:59:44.770 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/rota-inexistente, Response status code: 404
+2026-09-11 03:59:44.771 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2026-09-11 03:59:44.771 -03:00 [INF] Requisição iniciada: GET /health
+2026-09-11 03:59:44.771 -03:00 [INF] ApiKey was not authenticated. Failure message: API Key não informada.
+2026-09-11 03:59:44.771 -03:00 [INF] Executing endpoint 'Health checks'
+2026-09-11 03:59:44.776 -03:00 [INF] Start processing HTTP request GET https://www.google.com/
+2026-09-11 03:59:44.776 -03:00 [INF] Sending HTTP request GET https://www.google.com/
+2026-09-11 03:59:44.975 -03:00 [INF] Received HTTP response headers after 197.2664ms - 200
+2026-09-11 03:59:44.975 -03:00 [INF] End processing HTTP request after 199.7881ms - 200
+2026-09-11 03:59:45.260 -03:00 [INF] Executed endpoint 'Health checks'
+2026-09-11 03:59:45.260 -03:00 [INF] Requisição finalizada com sucesso. StatusCode: 200
+2026-09-11 03:59:45.260 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null text/plain 489.4429ms
